@@ -7,7 +7,7 @@
 
 <h2 id ="1"> Description </h2>
 <p>This is a static responsive website for interior design with several sections and a contact form.</p>
-<h6>Not this design does NOT belong to me, It is just a practice with MSP Al Azhar Workshop</h6>
+<h6>Note this design does NOT belong to me, It is just a practice with MSP Al Azhar Workshop</h6>
 <h2 id="2"> Implemented with </h2> 
 <ul>
     <li>HTML</li>
