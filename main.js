@@ -37,7 +37,7 @@ let button = messegeForm.querySelector("#button");
 // create popUp templete
 let popUpDiv = document.createElement("div");
 popUpDiv.setAttribute("class", "popUpDivTemplete");
-let popUpTextName = document.createTextNode("max length of characters is 20.");
+let popUpTextName = document.createTextNode("max length of characters is 30.");
 let popUpTextMessage = document.createTextNode(
   "max length of characters is 500."
 );
@@ -47,13 +47,13 @@ popUpDiv.style.marginLeft = "10px";
 popUpDiv.style.height = "30px";
 popUpDiv.style.padding = "10px";
 
-//checking for a vaild name of max 20 char long + message of max 500 char
+//checking for a vaild name of max 30 char long + message of max 500 char
 messegeForm.onsubmit = function (event) {
   let validName = false,
     validMessage = false;
   //validation check
-  validName = nameInput.value.length <= 20 ? true : false;
-  validMessage = messageInput.value.length <= 20 ? true : false;
+  validName = nameInput.value.length <= 30 ? true : false;
+  validMessage = messageInput.value.length <= 30 ? true : false;
 
   //deleting any popups
   let firstPopup = messegeForm.firstElementChild.children[2];
