@@ -1,0 +1,262 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+}
+#right-section {
+    margin: 0 0 0 22vw;
+    padding: 90px 45px 0px 30px;
+}
+
+section section {
+    padding: 5px;
+    margin-top: 70px;
+    margin-left: 1%;
+}
+
+nav {
+    background-color: #f44336;
+    color: white;
+    width: fit-content;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    margin: 0px;
+    padding: 20px 15px 30px;
+    z-index: 2;
+}
+.nav-btn {
+    width: inherit;
+    margin: 0;
+    padding: 0px
+}
+.nav {
+    width: 20vw;
+}
+.hide {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    padding:0;
+}
+li {
+    font-size: 19px;
+    margin-right: 15px;
+
+}
+
+#nav-heading {
+    font-size: 23px;
+    margin: 15px;
+    margin-bottom: 80px;
+}
+li a {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+}
+h1, h2 {
+    margin:0;
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    color: #f44336;
+    font-size: 48px;
+}
+hr {
+    width: 50px;
+    border: 6px solid red;
+    border-radius: 6px;
+    margin: 20px 0px 25px 0px;
+}
+img {
+    width: calc(95.5%/2);
+    opacity: 80%;
+    margin-bottom: 1%;
+}
+img:hover {
+    opacity: 100%
+}
+
+p {
+    font-size: 16px;
+}
+.showcase-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.clear {
+    clear: both;
+}
+.card-container {
+    /*    border: 10px solid red;
+*/
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card {
+    /*float: left;*/
+    width: calc(95.5%/3);
+    background-color: #f3f6f4;
+}
+.img-card {
+    width:100%;
+    height:40%;
+}
+
+
+.opacity-paragraph {
+    opacity: 88%;
+}
+.img-itself {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    opacity:100%;
+}
+.content-under-img {
+    padding: 10px;
+}
+
+ul span {
+    color: darkgray;
+}
+
+.ul-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ul-card {
+    width: calc(98%/2);
+}
+.ul-container li {
+    margin: 0;
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+}
+.left-ul-packages, .right-ul-packages {
+    text-align: center;
+    background-color: #f3f6f4;
+    margin: 0;
+}
+
+#darkgray-li {
+    background-color: #616161;
+    color: white;
+    font-size: 24px;
+    padding: 30px;
+}
+#tomato-li {
+    background-color: #f44336;
+    color: white;
+    font-size: 24px;
+    padding: 30px;
+}
+li.li-button {
+    border-bottom: none;
+}
+.button-container {
+    margin: 0;
+    background-color: #f3f6f4;
+}
+div.button {
+    width: 120px;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+}
+div.white {
+    background-color: white;
+}
+div.white:hover, div.red:hover {
+    background-color: black;
+    color: white;
+}
+div.red {
+    background-color: #f44336;
+    color: white;
+}
+
+label, input {
+    display: block;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+button {
+        width: 100%;
+        padding: 15px;
+        margin-top: 10px;
+        background-color: #f44336;
+        border: none;
+        color: white;
+        font-size: 19px;
+}
+button:hover {
+    background-color: darkgray;
+}
+
+footer {
+    padding: 40px;
+    text-align: right;
+    background-color: #f3f6f4;
+    margin-top: 70px;
+}
+footer a {
+    color: black;
+}
+
+@media (max-width: 1000px) {
+    #right-section {
+        margin-left: 16vw;
+    }
+    .nav {
+        width: 60vw;
+    }
+    #nav-heading {
+        font-size: 50px;
+        padding: 10px;
+    }
+    .nav li {
+        font-size: 40px;
+        padding: 10px;
+
+    }
+    .card-container, .showcase-imgs {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .card, .showcase-imgs img{
+        width: 100%;
+        flex: calc(95.5%/3);
+    }
+
+    .ul-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ul-card {
+        width: 100%;
+    }
+    
+}
