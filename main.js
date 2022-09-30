@@ -4,6 +4,7 @@ console.log(window.screen.width);
 function sizing() {
   if (window.screen.width <= 1000) {
     navBtn.classList.remove("hide");
+    navSection.classList.add("hide");
   } else {
     navBtn.classList.add("hide");
     navSection.classList.remove("hide");
